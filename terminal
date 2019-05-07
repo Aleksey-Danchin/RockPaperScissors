@@ -1,0 +1,1 @@
+npm install webpack webpack-cli webpack-dev-server babel-loader @babel/core @babel/preset-env @babel/transform-runtime @babel/plugin-transform-runtime @babel/runtime --save-dev
