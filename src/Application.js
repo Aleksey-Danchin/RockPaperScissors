@@ -26,8 +26,8 @@ class Application {
 		return this.scenes.filter(scene => scene.state === 'running')
 	}
 
-	startScene (sceneName) {
-		this.scenesMap.get(sceneName).startScene()
+	startScene (sceneName, data) {
+		this.scenesMap.get(sceneName).startScene(data)
 	}
 
 	stopScene (sceneName) {

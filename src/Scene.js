@@ -20,8 +20,9 @@ class Scene {
 		this.container.removeChildren()
 	}
 
-	startScene () {
+	startScene (data) {
 		this.state = 'started'
+		this.startData = data
 	}
 
 	load () {}
